@@ -1,0 +1,17 @@
+# Lab 1
+
+# Step 1: Install Maven
+sudo yum install maven -y
+
+# Step 2: Point  to Java 11
+ sudo update-alternatives --config java
+ sudo update-alternatives --config javac
+# Ensure or reassign the java version(s) to /usr/lib/jvm/java-11-amazon-corretto.x86_64/bin/java.
+
+# Step 3: Set up your lab1.py - You can move the script under KinesisRealTimeStreaming or save the file inside the folder.
+
+# Step 4: Install Boto3
+ pip install boto3
+
+ # Step 5: Run lab1.py
+ python lab1.py
